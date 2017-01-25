@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+#header-container{
+    background-color:aliceblue;
+}
+#header-container a img {
+    padding: 10px 0 10px 20px;
+}
+
+
+#nav-container ul {
+    background-color: cadetblue;
+    list-style-type: none;
+    text-align:center;  
+}
+#nav-container ul li{
+    color:aliceblue;
+    display:inline-table;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    position:relative;
+}
+#nav-container ul li a{
+    color:blue;
+    text-decoration:none;
+    display:block;
+}
+#nav-container ul  li a:hover{
+    background:red;
+}
+#nav-container ul li > .sub-menu{
+    display:none;
+    position:absolute;
+}
+#nav-container ul li:hover .sub-menu{
+    display:block;
+}
